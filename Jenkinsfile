@@ -21,8 +21,8 @@ pipeline {
     // usando "env.". Estas variables solo existen en este pipeline.
     environment {
         IMAGE_NAME = "curso-devops"
-        DH_REPO    = "carlosmarind/curso-devops"
-        GHCR_REPO  = "ghcr.io/carlosmarind/curso-devops"
+        DH_REPO    = "csotodocker/curso-devops"
+        GHCR_REPO  = "ghcr.io/theperfecthost/curso-devops"
     }
     stages {
         stage("Integracion continua") {
